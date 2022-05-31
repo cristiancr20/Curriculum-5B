@@ -1,0 +1,49 @@
+[
+	{
+		"lunes": "SIMULACIÓN",
+		"martes": "FUNDAMENTOS DE REDES DE COMUNIACIÓN",
+		"miercoles": "SISTEMAS DIGITALES",
+		"jueves": "DESARROLLO BASADO EN PLATAFORMAS",
+		"viernes": "DESARROLLO BASADO EN PLATAFORMAS"
+	},
+	{
+		"lunes": "SIMULACIÓN",
+		"martes": "FUNDAMENTOS DE REDES DE COMUNIACIÓN",
+		"miercoles": "SISTEMAS DIGITALES",
+		"jueves": "DESARROLLO BASADO EN PLATAFORMAS",
+		"viernes": "DESARROLLO BASADO EN PLATAFORMAS"
+		
+	},
+	{
+		"lunes": "ANALISIS NUMERICO",
+		"martes": "DESARROLLO BASADO EN PLATAFORMAS",
+		"miercoles": "ANALISIS NUMERICO",
+		"jueves": "FUNDAMENTOS DE REDES DE COMUNIACIÓN",
+		"viernes": "SIMULACION"
+		
+	},
+	{
+		"lunes": "ANALISIS NUMERICO",
+		"martes": "DESARROLLO BASADO EN PLATAFORMAS",
+		"miercoles": "ANALISIS NUMERICO",
+		"jueves": "FUNDAMENTOS DE REDES DE COMUNIACIÓN",
+		"viernes": "SIMULACION"
+		
+	},
+	{
+		"lunes": "SISTEMAS DIGITALES",
+		"martes": "ANALISIS NUMERICO",
+		"miercoles": "DESARROLLO BASADO EN PLATAFORMAS",
+		"jueves": "SIMULACION",
+		"viernes": "SISTEMAS DIGITALES"
+		
+	},
+	{
+		"lunes": "SISTEMAS DIGITALES",
+		"martes": "ANALISIS NUMERICO",
+		"miercoles": "DESARROLLO BASADO EN PLATAFORMAS",
+		"jueves": "SIMULACION",
+		"viernes": "SISTEMAS DIGITALES"
+		
+	}
+]

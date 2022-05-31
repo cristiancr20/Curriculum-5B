@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;600&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+
+
+.page{
+    background: #001122;
+    height: 100vh;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    background: #715DF2;
+    cursor: pointer;
+}
+
+.nav .nav-title{
+    padding: 30px;
+}
+
+
+.nav .nav-options ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav .nav-options ul a,
+.nav .nav-title a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav .nav-options ul li{
+    margin: 0 5px ;
+    transition: all .3s ease-in-out;
+    padding: 30px ;
+    font-size: 20px;
+}
+
+.nav .nav-options ul li:hover{
+    background: #001122;
+    transform: scale(1.2);
+}
+
+.page h1{
+    color: #fff;
+    text-align: center;
+    margin: 20px;
+}
+table{
+    width: 50%;
+    margin: 50px auto;
+    border: 1px solid #fff;
+}
+
+th{
+    color: #fff;
+    height: 50px;
+    background: #715DF2;
+    border: 1px solid #fff;
+
+}
+
+tr{
+    height: 30px;
+    color: #fff;
+}
+td{
+    border: 1px solid #fff;
+    
+}

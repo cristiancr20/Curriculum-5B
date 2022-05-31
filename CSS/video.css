@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500;600&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+.page{
+    background: #001122;
+    height: 100%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    background: #715DF2;
+    cursor: pointer;
+}
+
+.nav .nav-title{
+    padding: 30px;
+}
+
+
+.nav .nav-options ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav .nav-options ul a,
+.nav .nav-title a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav .nav-options ul li{
+    margin: 0 5px ;
+    transition: all .3s ease-in-out;
+    padding: 30px ;
+    font-size: 20px;
+}
+
+.nav .nav-options ul li:hover{
+    background: #001122;
+    transform: scale(1.2);
+}
+
+
+
+/* video */
+
+  .reproducir{
+    width: 50%;
+    margin: 20px auto
+  }
+
+  .reproducir .player__video{
+    width: 100%;
+    text-align: center;
+  }
+
+
+  
+  .reproducir .reproductor .reproducir .player__btn{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    width: 100%;
+  }
+  
+  .reproducir .reproductor .reproducir .player__btn .boton{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background: #715DF2;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .reproducir .reproductor .reproducir .player__btn i{
+    
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+  } 
+  
+  .reproducir .reproductor .reproducir .player__btn .hide{
+    display: none;
+  } 
