@@ -21,7 +21,7 @@ function abrirModal(){
   
   if(usuario== "Cristian" && clave=="1234"){
     
-    window.location="Curriculum.php";
+    window.location="../PHP/Curriculum.php";
     
   }else{
     alert("Error");
