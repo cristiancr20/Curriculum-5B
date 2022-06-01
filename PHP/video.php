@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video</title>
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-
+    <link rel="icon" href="../img/icon.ico">
 </head>
 <body>
     <div class="page">
@@ -29,16 +29,16 @@
                     <a href="video.php">
                         <li>Video</li>
                     </a>
-                    <a href="calculadora.php">
+                    <a href="Calculadora.php">
                         <li>Calculadora</li>
                     </a>
-                    <a href="horario.php">
+                    <a href="Horario.php">
                         <li>Horario</li>
                     </a>
-                    <a href="slider.php">
+                    <a href="Slider.php">
                         <li>Slider</li>
                     </a>
-                    <a href="index.php">
+                    <a href="../index.php">
                         <li>Salir</li>
                     </a>
                 </ul>
