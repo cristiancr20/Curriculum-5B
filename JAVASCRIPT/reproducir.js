@@ -13,3 +13,18 @@ playPause.addEventListener("click", () => {
         playPause.querySelector(".play-btn").classList.toogle("hide");
     }
 })
+
+
+function audio(){
+console.log("hola audio");
+const audio = document.getElementById("audio");
+const playaudio = document.getElementById("playaudio");
+
+playaudio.addEventListener("click", ()=>{
+    if(audio.paused ){
+        audio.play();
+    }else if(audio.play){
+        audio.pause();
+    }
+})
+}

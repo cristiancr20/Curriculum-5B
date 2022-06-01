@@ -9,7 +9,7 @@
 
 .page{
     background: #001122;
-    height: 100%;
+    padding-bottom: 50px;
 }
 
 .nav{
@@ -48,7 +48,12 @@
     transform: scale(1.2);
 }
 
-
+.page h1{
+  text-align: center;
+  color: #715DF2;
+  margin: 20px;
+  font-size: 60px;
+}
 
 /* video */
 
@@ -62,8 +67,6 @@
     text-align: center;
   }
 
-
-  
   .reproducir .reproductor .reproducir .player__btn{
     display: flex;
     justify-content: space-around;
@@ -94,3 +97,63 @@
   .reproducir .reproductor .reproducir .player__btn .hide{
     display: none;
   } 
+
+
+.wrapper .outer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.content,
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .img{
+  border-radius: 50%;
+  animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+  0%{
+    transform: rotate(-360deg);
+  }100%{
+    transform: rotate(-360def);
+  }
+}
+
+.content .img img{
+  height: 150px;
+  border-radius: 50%;
+}
+
+.details{
+  margin:0 20px;
+  color: #fff;
+}
+
+.details span{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card a{
+  text-decoration: none;
+  background: #715DF2;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  transition: all .3s ease-in-out;
+  font-weight: bold;
+
+}
+
+.card a:hover{
+  background: #fff;
+  color: #001122;
+  
+}

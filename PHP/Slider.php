@@ -26,8 +26,8 @@
                     <a href="video.php">
                         <li>Video</li>
                     </a>
-                    <a href="tabla.php">
-                        <li>Tabla</li>
+                    <a href="calculadora.php">
+                        <li>Calculadora</li>
                     </a>
                     <a href="horario.php">
                         <li>Horario</li>
@@ -41,22 +41,56 @@
                 </ul>
             </div>
         </div>
-        <div class="boton">
-            <a href="https://app.netlify.com/teams/cristiancr20/overview">Ver WebSites</a>
-        </div>
-        
-        <div class="slider">
-            <div class="home__card">
-                <div class="card target_1">
-                    <div class="imagen">
 
-                    </div>
-                </div>
-            </div>
-        </div>
+        <h1>Slider</h1>
+        <div class="slide">
+			<div class="slide-inner">
+				<input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden="" checked="checked">
+				<div class="slide-item">
+					<img src="../img/img_1.jpg">
+				</div>
+				<input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+				<div class="slide-item">
+					<img src="../img/img_2.jpg">
+				</div>
+				<input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+				<div class="slide-item">
+					<img src="../img/img_3.jpg">
+				</div>
 
-        
+                <input class="slide-open" type="radio" id="slide-4" name="slide" aria-hidden="true" hidden="">
+				<div class="slide-item">
+					<img src="../img/img_4.jpg">
+				</div>
+                
+				<label for="slide-4" class="slide-control next control-3">›</label>
+				<label for="slide-4" class="slide-control prev control-1">‹</label>
+                
+                <label for="slide-3" class="slide-control next control-2">›</label>
+				<label for="slide-3" class="slide-control prev control-4">‹</label>
 
+				<label for="slide-2" class="slide-control next control-1">›</label>
+				<label for="slide-2" class="slide-control prev control-3">‹</label>
+                
+				<label for="slide-1" class="slide-control next control-4">›</label>
+				<label for="slide-1" class="slide-control prev control-2">‹</label>
+
+				<ol class="slide-indicador">
+					<li>
+						<label for="slide-1" class="slide-circulo">•</label>
+					</li>
+					<li>
+						<label for="slide-2" class="slide-circulo">•</label>
+					</li>
+					<li>
+						<label for="slide-3" class="slide-circulo">•</label>
+					</li>
+                    <li>
+						<label for="slide-4" class="slide-circulo">•</label>
+					</li>
+				</ol>
+			</div>
+		</div>
     </div>
 
 </body>

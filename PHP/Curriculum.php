@@ -31,8 +31,8 @@
                     <a href="video.php">
                         <li>Video</li>
                     </a>
-                    <a href="tabla.php">
-                        <li>Tabla</li>
+                    <a href="calculadora.php">
+                        <li>Calculadora</li>
                     </a>
                     <a href="horario.php">
                         <li>Horario</li>

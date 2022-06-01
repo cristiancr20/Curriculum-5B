@@ -29,8 +29,8 @@
                     <a href="video.php">
                         <li>Video</li>
                     </a>
-                    <a href="tabla.php">
-                        <li>Tabla</li>
+                    <a href="calculadora.php">
+                        <li>Calculadora</li>
                     </a>
                     <a href="horario.php">
                         <li>Horario</li>
@@ -44,9 +44,30 @@
                 </ul>
             </div>
         </div>
-
-    <div class="reproducir">
         
+        <h1>Audio</h1>
+        <div class="wrapper">
+            <div class="outer">
+                <div class="card" >
+                    <div class="content">
+                        <div class="img"><img src="../img/img-audio.jfif" alt=""></div>
+                        <div class="details">
+                            <span class="name">The Only Way Is Up </span>
+                            <p>Martin Garrix & Tiësto </p>
+                        </div>
+                    </div>
+                    <div id="playaudio">
+                        <a href="#" class="play-btn" onclick="audio()">Listen</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <audio class="audio" id ="audio">
+            <source src="../audio.mp3" type="audio/mp3">
+        </audio>
+
+        <h1>Video</h1>
+        <div class="reproducir">
         <video class="player__video"  id="video" >
             <source src="../SanLucas.mp4" type="video/mp4" >
         </video>
@@ -67,7 +88,11 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
+
+
+        
+        
     </div>
 
     <script src="../JAVASCRIPT/reproducir.js"></script>

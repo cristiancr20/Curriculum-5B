@@ -28,8 +28,8 @@
                     <a href="video.php">
                         <li>Video</li>
                     </a>
-                    <a href="tabla.php">
-                        <li>Tabla</li>
+                    <a href="calculadora.php">
+                        <li>Calculadora</li>
                     </a>
                     <a href="horario.php">
                         <li>Horario</li>
@@ -68,6 +68,35 @@
                 </tbody>
                 
             </table>
+
+            <h1>Listado Estudiantes de 5to B DBP</h1>
+
+    <?php
+
+
+        $xml = simplexml_load_file('../Estudiantes.xml');
+
+        echo '<table  >';
+
+        echo '<th>Cedula </th>';
+        echo '<th>Nombre </th>';
+        echo '<th>Apellido</th>';
+        echo '<th>Celular</th>';
+        echo '<th>Carrera</th>';
+        //cargar en la tabla
+            foreach ($xml -> estudiante as $key0 => $est ){
+
+                echo '<tr>';
+                echo '<td>'.$est-> cedula.'</td>';
+                echo "<td>".$est ->nombre. "</td>";
+                echo "<td>".$est ->apellido. "</td>";
+                echo "<td>".$est ->celular. "</td>";
+                echo "<td>".$est ->carrera. "</td>";
+                echo '</tr>';
+            }
+
+        echo '</table>';
+    ?>
     </div>
 
     <script src="../JAVASCRIPT/Ajax.js"></script>
