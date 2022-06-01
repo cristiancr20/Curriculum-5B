@@ -17,7 +17,7 @@ $query = mysqli_query($conn, "SELECT * FROM login WHERE usuario = '".$nombre."' 
 $nr = mysqli_num_rows ($query);
 
 if($nr == 1){
-    header("Location: Curriculum.php");
+    header("Location: ./Curriculum.php");
     echo "Bienvenido: ".$nombre;
     
 }else if ($nr == 0) {
