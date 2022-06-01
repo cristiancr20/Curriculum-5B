@@ -15,7 +15,7 @@ function abrirModal(){
     })
 }
 
-/* function ingresar(){
+ function ingresar(){
   let usuario = document.getElementById('user').value;
   let clave = document.getElementById('password').value;
   
@@ -28,7 +28,7 @@ function abrirModal(){
   }
 
 }
- */
+
 
 
 

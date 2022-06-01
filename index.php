@@ -33,14 +33,14 @@
         <!-- Modal -->
         <section class="modal hidden">
             <div class="modal-content">
-            <form action="login.php">
+            <!-- <form action="login.php"> -->
                 <img class="modal-content__close" src="../macos-close.png" alt="ícono de cerrar">
                 <label for="User" >Usurario</label>
                 <input type="text" name="usuario" placeholder="Escribe aquí" required />
                 <label for="Password" >Contraseña</label>
                 <input type="password" name="password" placeholder="Escribe aquí" required/>
-                <button class="modal-content__button"  value="Ingresar">Ingresar!</button>
-            </form>
+                <button class="modal-content__button"  value="Ingresar" onclick="ingresar()">Ingresar!</button>
+            <!-- </form> -->
         </section>
     </div>
 </div>
