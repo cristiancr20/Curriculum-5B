@@ -152,31 +152,37 @@ body{
   place-items: center;
 }
 
-.modal-content{
-  /* align-items: center;
-  background: #001122;
-    border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; */
-  height: 50%;
-  position: relative;
-  width: 50%;
-}
+
 
 .modal-content{
   text-align: center;
-  background: red;
   height: 50%;
   position: relative;
   width: 40%;
 
   align-items: center;
   background: #001122;
-    border-radius: 20px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+form{
+  width: 100%;
+  text-align: center;
+  align-items: center;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+
+}
+
+form a{
+  width: 100%;
+  display: block;
 }
 
 .modal-content__close {
@@ -218,3 +224,10 @@ input {
 }
 
 
+a{
+  color: #fff;
+  transition: all .3s ease-in-out;
+}
+a:hover{
+  transform: scale(1.2);
+}

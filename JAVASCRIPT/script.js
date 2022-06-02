@@ -14,7 +14,7 @@ function abrirModal(){
       modal.classList.add('hidden')
     })
 }
-
+/* 
  function ingresar(){
   let usuario = document.getElementById('user').value;
   let clave = document.getElementById('password').value;
@@ -27,7 +27,7 @@ function abrirModal(){
     alert("Error");
   }
 
-}
+} */
 
 
 

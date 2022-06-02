@@ -1,5 +1,5 @@
 <?php
-   echo ' <link href="login.css"  rel="stylesheet" > ';
+   echo ' <link href="../CSS/login.css"  rel="stylesheet" > ';
 
 session_start();
 
@@ -17,12 +17,17 @@ $query = mysqli_query($conn, "SELECT * FROM login WHERE usuario = '".$nombre."' 
 $nr = mysqli_num_rows ($query);
 
 if($nr == 1){
-    header("Location: ./Curriculum.php");
-    echo "Bienvenido: ".$nombre;
+    header("Location: ../PHP/Curriculum.php");
+    
     
 }else if ($nr == 0) {
-    echo "<h1>No ingreso</h1>";
-    echo "<h1>Usuario y contraseña no valiados</h1>";
+    ?> 
+    <div class="info">
+        <h1>No ingreso</h1>
+        <h1>Usuario y contraseña no valiados</h1>
+        <a href="../index.php" >Volver</a>
+    </div>
+    <?php
    
 }
    
