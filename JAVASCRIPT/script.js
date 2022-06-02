@@ -14,20 +14,20 @@ function abrirModal(){
       modal.classList.add('hidden')
     })
 }
-/* 
+
  function ingresar(){
   let usuario = document.getElementById('user').value;
   let clave = document.getElementById('password').value;
-  
+  console.log("hola");
   if(usuario== "Cristian" && clave=="1234"){
     
-    window.location="../PHP/Curriculum.php";
+    window.location="./PHP/Curriculum.php";
     
   }else{
-    alert("Error");
+    window.location="./PHP/Error.php";
   }
 
-} */
+}
 
 
 

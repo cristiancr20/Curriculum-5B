@@ -20,9 +20,9 @@
             <button class="modal-content__button"  name="register" value="Registrar" >Registrar!</button>
         </form>
 
-        <?php
+        <!-- <?php
             include("registro.php");
-        ?>
+        ?> -->
     </div>
 
     

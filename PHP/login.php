@@ -18,8 +18,6 @@ $nr = mysqli_num_rows ($query);
 
 if($nr == 1){
     header("Location: ../PHP/Curriculum.php");
-    
-    
 }else if ($nr == 0) {
     ?> 
     <div class="info">

@@ -34,15 +34,15 @@
         <!-- Modal -->
         <section class="modal hidden">
             <div class="modal-content">
-                <form action="./PHP/login.php">
+                <!-- <form action="./PHP/login.php"> -->
                     <img class="modal-content__close" src="macos-close.png" alt="ícono de cerrar">
                     <label for="User" >Usurario</label>
                     <input type="text" name="usuario" placeholder="Escribe aquí" id="user"required />
                     <label for="Password" >Contraseña</label>
                     <input type="password" name="password" placeholder="Escribe aquí" id="password" required/>
-                    <button class="modal-content__button"  value="Ingresar" >Ingresar!</button>
-                    <a href="./PHP/Registrar.php">Registrarse</a>
-                </form>
+                    <button class="modal-content__button"  value="Ingresar" onclick="ingresar()">Ingresar!</button>
+                   <!--  <a href="./PHP/Registrar.php">Registrarse</a> -->
+                <!-- </form> -->
             </div>
         </section>
     </div>
