@@ -141,9 +141,100 @@
                 </div>
             </div>
         </div>
+
+        <div class="calcular">
+            <h1>Calcular Etiquetas</h1>
+            <div class="info">
+                <p>Existen: </p>
+                <div id="resultadoDiv"></div>
+                <p>etiquetas div</p>
+            </div>
+            <div class="info">
+                <p>Existen: </p>
+                <div id="resultadoH1"></div>
+                <p>etiquetas H1</p>
+            </div>
+            <div class="info">
+                <p>Existen: </p>
+                <div id="resultadoH2"></div>
+                <p>etiquetas H2</p>
+            </div>
+            <div class="info">
+                <p>Existen: </p>
+                <div id="resultadoH4"></div>
+                <p>etiquetas H4</p>
+            </div>
+
+            <div class="info">
+                <p>Existen: </p>
+                <div id="resultadoUl"></div>
+                <p>etiquetas ul</p>
+            </div>
+
+            <div class="info">
+                <p>Existen: </p>
+                <div id="resultadoLi"></div>
+                <p>etiquetas li</p>
+            </div>
+
+            <div class="info">
+                <p>Existen: </p>
+                <div id="resultadoA"></div>
+                <p>etiquetas a</p>
+            </div>
+
+            <div class="info">
+                <p>Existen: </p>
+                <div id="resultadoP"></div>
+                <p>etiquetas p</p>
+            </div>
+
+            <div class="info">
+                <p>Existen: </p>
+                <div id="resultadoI"></div>
+                <p>etiquetas i</p>
+            </div>
+        </div>
     </div>
 
+    <script>
+        /* Divs */
+            var divs = document.getElementsByTagName('div').length;
+            document.getElementById("resultadoDiv").innerHTML=divs;
 
+            /* H1 */
+            var h1s = document.getElementsByTagName('h1').length;
+            document.getElementById("resultadoH1").innerHTML=h1s;
+
+            /* H2 */
+            var h2s = document.getElementsByTagName('h2').length;
+            document.getElementById("resultadoH2").innerHTML=h2s;
+
+            /* H4 */
+            var h4s = document.getElementsByTagName('h4').length;
+            document.getElementById("resultadoH4").innerHTML=h4s;
+
+            /* Ul */
+            var uls = document.getElementsByTagName('ul').length;
+            document.getElementById("resultadoUl").innerHTML=uls;
+
+            /* Li */
+            var lis = document.getElementsByTagName('li').length;
+            document.getElementById("resultadoLi").innerHTML=lis;
+
+            /* a */
+            var as = document.getElementsByTagName('a').length;
+            document.getElementById("resultadoA").innerHTML=as;
+
+            /* p */
+            var ps = document.getElementsByTagName('p').length;
+            document.getElementById("resultadoP").innerHTML=ps;
+
+             /* i */
+             var is = document.getElementsByTagName('i').length;
+            document.getElementById("resultadoI").innerHTML=is;
+
+    </script>
 </body>
 </html>
 

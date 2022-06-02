@@ -117,3 +117,21 @@ h4{
 .datos .options div a i:hover{
     transform: scale(1.5);
 }
+
+.calcular h1{
+    color: #715DF2;
+}
+.calcular .info{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.calcular div p{
+    color: #fff;
+}
+
+.calcular div div{
+    margin:0 10px 0 20px;
+    color: #fff;
+
+}
