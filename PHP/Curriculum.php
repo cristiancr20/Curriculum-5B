@@ -47,8 +47,7 @@
             </div>
         </div>
         
-        <video src="https://carontestudio.com/img/f2.mp4" autoplay="true" muted="true" loop="true"></video>
-        
+       
         <h1>Curriculum</h1>
         <h2>Datos Personales</h2>
         <div class="datos">
