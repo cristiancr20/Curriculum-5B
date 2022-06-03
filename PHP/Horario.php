@@ -45,13 +45,52 @@
             </div>
         </div>
 
+        <h1>Listado Estudiantes de 5to B DBP</h1>
+
+            <div class="buscador">
+                <input id="txtBusqueda" placeholder="Buscar datos" type="text" onkeyup="Buscar();" />
+            </div>    
+
+            <table id="tablaEstudiantes">
+                <thead>
+                    <tr>
+                        <th>Cedula</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Celular</th>
+                        <th>Carrera</th>
+                    </tr>
+                </thead>
+
+                <?php
+                /* echo ('<link rel="stylesheet" href="css/tablas.css">'); */
+
+                if (file_exists('../Estudiantes.xml')) {
+                    $xml = simplexml_load_file('../Estudiantes.xml');
+                    foreach ($xml->estudiante as $key0 => $est) {
+                        echo '<tr">';
+                        echo '<td>' . $est->cedula . '</td>';
+                        echo '<td>' . $est->nombre . '</td>';
+                        echo '<td>' . $est->apellido . '</td>';
+                        echo '<td>' . $est->celular . '</td>';
+                        echo '<td>' . $est->carrera . '</td>';
+                        echo '</tr>';
+                    }
+                } else {
+                    exit('No se puede abrir el xml');
+                }
+                ?>
+            </table>
+
         <h1 class="titulo">Horario</h1>
         
         <div class="boton">
             <button id ="boton" class="waves-effect waves-light btn">
-                Json Horario
+                Clic para ver tabla Json
             </button>
         </div>
+
+        
 
             <table >
                 <thead>
@@ -70,34 +109,7 @@
                 
             </table>
 
-            <h1>Listado Estudiantes de 5to B DBP</h1>
-
-    <?php
-
-
-        $xml = simplexml_load_file('../Estudiantes.xml');
-
-        echo '<table  >';
-
-        echo '<th>Cedula </th>';
-        echo '<th>Nombre </th>';
-        echo '<th>Apellido</th>';
-        echo '<th>Celular</th>';
-        echo '<th>Carrera</th>';
-        //cargar en la tabla
-            foreach ($xml -> estudiante as $key0 => $est ){
-
-                echo '<tr>';
-                echo '<td>'.$est-> cedula.'</td>';
-                echo "<td>".$est ->nombre. "</td>";
-                echo "<td>".$est ->apellido. "</td>";
-                echo "<td>".$est ->celular. "</td>";
-                echo "<td>".$est ->carrera. "</td>";
-                echo '</tr>';
-            }
-
-        echo '</table>';
-    ?>
+            
     </div>
 
     <script src="../JAVASCRIPT/Ajax.js"></script>
