@@ -15,7 +15,7 @@
 <body>
     
 <div class="page">
-
+    <video src="https://carontestudio.com/img/f4.mp4" autoplay="true" muted="true" loop="true"></video>
     <div class="container">
 
         <!-- Loader -->
